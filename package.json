@@ -1,0 +1,20 @@
+{
+  "name": "ui-sitemaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "chai": "^3.5.0",
+    "glob": "^7.0.3",
+    "yargs": "^4.6.0"
+  }
+}
